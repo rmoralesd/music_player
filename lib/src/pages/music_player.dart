@@ -267,6 +267,7 @@ class ImagenDisco extends StatelessWidget {
             children: [
               SpinPerfect(
                 duration: const Duration(seconds: 10),
+                animate: false,
                 infinite: true,
                 manualTrigger: true,
                 controller: (animationController) =>
